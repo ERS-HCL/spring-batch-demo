@@ -1,0 +1,11 @@
+org\kmrn\spring\batch\cpc\processor\JsonProcessor.class
+org\kmrn\spring\batch\cpc\step\OfferStep.class
+org\kmrn\spring\batch\cpc\bean\OfferData.class
+org\kmrn\spring\batch\cpc\bean\ProductData.class
+org\kmrn\spring\batch\cpc\CpcJob.class
+org\kmrn\spring\batch\cpc\launcher\scheduler\CpcSchduler.class
+org\kmrn\spring\batch\Application.class
+org\kmrn\spring\batch\cpc\launcher\CpcJobLauncher.class
+org\kmrn\spring\batch\cpc\launcher\web\CpcJobLauncherController.class
+org\kmrn\spring\batch\cpc\writer\CouchbaseWriter.class
+org\kmrn\spring\batch\cpc\step\ProductStep.class
