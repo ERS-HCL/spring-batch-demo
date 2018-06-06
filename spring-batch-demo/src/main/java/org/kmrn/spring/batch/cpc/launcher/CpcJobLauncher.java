@@ -28,7 +28,8 @@ public class CpcJobLauncher {
 	
 	private JobParameters getJobParameters() {
 		JobParametersBuilder jobBuilder= new JobParametersBuilder();
-		jobBuilder.addString("date", dateFormat.format(new Date()));
+		//jobBuilder.addString("date", dateFormat.format(new Date()));
+		jobBuilder.addDate("date", new Date());
 		return jobBuilder.toJobParameters();
 	}
 }
